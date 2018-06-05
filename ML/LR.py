@@ -83,19 +83,9 @@ for a in range(0, runs):
 	linreg2.fit(X2_train, y2_train)
 
 
-	# Here the model is run on the formula that the linear regression has made
-	for j in range(0, len(X1_test.values)):
-		test1 = linreg1.intercept_
-		for i in range(0, len(X1_test.values[j])):
-			test1 += (linreg1.coef_[i] * X1_test.values[j][i])
-		polakTime.append(test1)
+	polakTime = linreg1.predict(X1_test)
+	jainTime = linreg2.predict(X2_test)
 
-
-	for m in range(0, len(X2_test.values)):
-		test2 = linreg2.intercept_
-		for n in range(0, len(X2_test.values[m])):
-			test2 += (linreg2.coef_[n] * X2_test.values[m][n])
-		jainTime.append(test2)
 
 	# Here the predicted times of the two algorithms are being compared and
 	# the one with the lowest predicted execution time is the optimal one.
