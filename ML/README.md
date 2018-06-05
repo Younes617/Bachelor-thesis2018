@@ -20,7 +20,7 @@ If you have a graph and want to test out which of the implementations is best su
 
 Example: python predictGraph.py 1 graphs/delaunay_n10.graph
 
-###Output
+## Output
 
 
 Polak: if Polaks algorithm is optimal
