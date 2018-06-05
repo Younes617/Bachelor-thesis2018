@@ -16,7 +16,9 @@ If you have a graph and want to test out which of the implementations is best su
 
 (2) Make sure the file (predictGraph.py) is in the same folder as trainData.csv, polakData.csv, jainData.csv and fivesum.csv because it trains the model using those data.
 
-(3) Use the command: python predictGraph.py *value 1-3* *file.graph*
+(3) Use the command: python predictGraph.py *1-3* *file.graph*
+
+Example: python predictGraph.py 1 graphs/delaunay_n10.graph
 
 ##Output
 Polak: if Polaks algorithm is optimal
