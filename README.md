@@ -10,7 +10,7 @@ Date: 05-06-2018
 
 
 
-For my thesis I created models that could predict which CUDA implementation for the graph processing task triangle counting would have the fastest execution time. 
+For my thesis I created models that could predict which CUDA implementation for the graph processing task triangle counting, would have the fastest execution time. 
 
 The algorithms I used and (slightly) edited were taken from github:
 Adam Polak's algorithm:
